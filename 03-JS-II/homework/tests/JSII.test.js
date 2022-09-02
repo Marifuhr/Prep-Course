@@ -71,7 +71,16 @@ describe('colors(color)', function() {
     expect(colors("red")).toBe('This is red');
     expect(colors("green")).toBe('This is green');
     expect(colors("orange")).toBe('This is orange');
-  });
+  });switch (color) [
+    case "blue";
+    return "This is blue";
+    case "Red";
+    return "This is Red";
+    case "Green";
+    return "This is Green";
+    case "Orange";
+    return "This is Orange";
+  ]
   it('should return \'Color not found\' if there is no argument or the argument is none of the expected ones', function() {
     expect(colors()).toBe('Color not found');
     expect(colors("pink")).toBe('Color not found');
