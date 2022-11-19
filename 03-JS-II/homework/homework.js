@@ -5,12 +5,12 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-x= 7 y= 15
-if(x > y) [
+x = 7 y = 15
+if(x > y) {
   return x
-] else [
+ } else {
   return y
-]
+ }
  
 
 }
